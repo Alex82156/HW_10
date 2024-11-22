@@ -1,0 +1,31 @@
+    1  git config --global user.name "Alex Stanko"
+    2  git config --global user.email "stankoalex821@gmail.com"
+    3  touch text_ignore.txt
+    4  nano .gitignore
+    5  git status
+    6  git add .
+    7  ls
+    8  git help
+    9  git init .gitignore
+   10  git init 
+   11  git status
+   12  git add .
+   13  git commit -m "Коментар"
+   14  touch main_test.txt
+   15  git add .
+   16  git commit -m "Коментар12"
+   17  git help
+   18  git branch develop
+   19  git checkou develop
+   20  git checkout develop
+   21  touch develop_test.txt
+   22  git add .
+   23  git commit -m "Коментар1214"
+   24  nano dvelop_test.txt
+   25  git status
+   26  git add .
+   27  git commit -m "1214"
+   28  git checkout master
+   29  git merge develop
+   30  git log
+   31  history > command_list.csv
